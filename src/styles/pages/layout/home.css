@@ -1,0 +1,134 @@
+.portada {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    background-image: url('../../../assets/tecleo.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 10rem;
+    max-width: 80%;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 3rem;
+    animation: blur-in 0.4s linear both;
+}
+
+@keyframes blur-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+.portada h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.459);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.texto {
+    padding: 2rem;
+    animation: scale-up-horizontal-left 0.4s;
+    -webkit-animation: scale-up-horizontal-left 0.4s;
+}
+
+.texto p {
+    font-size: 1.2rem;
+}
+
+@keyframes scale-up-horizontal-left {
+    0% {
+        transform: scaleX(.4);
+        transform-origin: left center
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: left center
+    }
+}
+
+.vision,
+.presentacion {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    background-color: #ffffff;
+    padding: 3rem;
+    box-shadow: 0 0 8px black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.presentacion h2{
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.presentacion p{
+    font-size: 1.3rem;
+    text-align: left;
+}
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+}
+.url{
+    cursor: pointer;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    font-size: 3rem;
+    padding: 2rem;
+}
+git:hover{
+    color: #7F44C6;
+}
+.insta:hover{
+    color: #F603AF;
+}
+
+.vision h2,
+.presentacion h1{
+    font-size: 4.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.valor {
+    background-color: rgb(5, 0, 31);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ffffff;
+    max-width: fit-content;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px rgb(0, 110, 255);
+}
+
+.vision h3 {
+    font-size: 3rem;
+}
+
+.vision h6 {
+    font-size: 1rem;
+}
