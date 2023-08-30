@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {useRef} from 'react';
 import {FaBars} from 'react-icons/fa';
 import '../styles/components/layout/header.css';
 import '../styles/components/layout/nav.css';

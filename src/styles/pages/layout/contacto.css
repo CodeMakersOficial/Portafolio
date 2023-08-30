@@ -102,3 +102,46 @@
     fill: #F603AF;
     cursor: pointer;
 }
+
+.small-captcha {
+    width: 10rem;
+  }
+  
+@media only screen and (max-width: 410px){
+    .formulario button{
+        font-size: 1.3rem;
+        min-width: 10rem;
+    }
+    #gwd-reCAPTCHA_2{
+        transform: scale(0.6);
+        transform-origin: 0 0;
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+        -o-transform: scale(0.6);
+}
+    #gwd-reCAPTCHA_2 #rc-imageselect{
+                        -webkit-transform:         scale(0.5);
+                        -moz-transform:         scale(0.5);
+                        -ms-transform:         scale(0.5);
+                        -o-transform:         scale(0.5);
+                        transform:         scale(0.5);
+                        -webkit-transform-origin: 0 0;
+                        -moz-transform-origin: 0 0;
+                        -ms-transform-origin: 0 0;
+                        -o-transform-origin: 0 0;
+                        transform-origin: 0 0;
+}
+}
+@media only screen and (max-width: 355px){
+    .formulario input,
+    .formulario textarea{
+        max-width: 90%;
+    }
+    .formulario h1{
+        font-size: 2.2rem;
+    }
+    .formulario label{
+        font-size: 1.8rem;
+    }
+}

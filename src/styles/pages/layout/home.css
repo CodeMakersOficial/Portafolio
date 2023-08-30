@@ -79,7 +79,8 @@
     font-size: 2rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
-.presentacion p{
+.presentacion p,
+.vision p{
     font-size: 1.3rem;
     text-align: left;
 }
@@ -96,6 +97,7 @@
     -o-transition: all 300ms;
     font-size: 3rem;
     padding: 2rem;
+    color: #000000;
 }
 git:hover{
     color: #7F44C6;
@@ -131,4 +133,61 @@ git:hover{
 
 .vision h6 {
     font-size: 1rem;
+}
+
+img.imgValor{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@media only screen and (max-width: 490px){
+    .portada h1 {
+        font-size: 3rem;
+    }
+    .presentacion h1{
+        font-size: 2.5rem;
+    }
+    .presentacion h2{
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width: 303px){
+    .portada h1 {
+        font-size: 2.2rem;
+    }
+    .presentacion h1{
+        font-size: 1.5rem;
+    }
+    .presentacion h2{
+        font-size: 1rem;
+    }
+    .presentacion p,
+    .vision p{
+        font-size: 0.9rem;
+    }
+    .vision h2{
+        font-size: 1.5rem;
+    }
+    .url{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 426px){
+    .vision h3 {
+        font-size: 1.2rem;
+    }
+    
+    .vision h6 {
+        font-size: 0.8rem;
+    }
+    
+    img.imgValor{
+        width: 9rem;
+        height: 9rem;
+    }
 }

@@ -67,6 +67,7 @@
   -moz-transition: all 300ms;
   -ms-transition: all 300ms;
   -o-transition: all 300ms;
+  color: #000000;
 }
 .red:hover{
   font-size: 3.5rem;
@@ -80,4 +81,41 @@
 }
 .cv:hover{
   color: rgb(212, 38, 25)
+}
+
+@media only screen and (max-width: 465px){
+  .staf h1{
+    font-size: 3rem;
+  }
+  .staf h5{
+    font-size: 1rem;
+  }
+  .staf h2{
+    font-size: 2.3rem;
+  }
+  .circle{
+    width: 10rem;
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 295px){
+  .staf h1{
+    font-size: 2.3rem;
+  }
+  .staf h5{
+    font-size: 1rem;
+  }
+  .staf h2{
+    font-size: 1.3rem;
+  }
+  .circle{
+    width: 8rem;
+    height: 8rem;
+  }
+  .red{
+    font-size: 1.5rem;
+  }
+  .staf p{
+    font-size: 0.8rem;
+  }
 }
